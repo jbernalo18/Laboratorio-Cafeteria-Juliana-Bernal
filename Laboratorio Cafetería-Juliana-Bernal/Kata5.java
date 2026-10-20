@@ -1,6 +1,5 @@
 //Contexto: La cafetería tiene un menú básico. Los clientes pueden elegir productos.
 
-
 import java.util.Scanner;
 
 public class Kata5 {

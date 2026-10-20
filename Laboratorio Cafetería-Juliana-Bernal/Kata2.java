@@ -13,7 +13,7 @@ public class Kata2 {
         //Pide la temperatura en grados Celsius (puede ser decimal, usa nextDouble() ).
         System.out.print("Ingrese la tempertura (Celsius): ");
         double valorTemperatura = entradaUsuario.nextDouble();
-
+        entradaUsuario.close();
 
         String clasificacionBebida;
         if (valorTemperatura<30){

@@ -14,10 +14,11 @@ public class Kata3 {
         double totalFinal;
 
        do {
-           System.out.println("Ingrese el precio del producto (0 para terminar): ");
+           System.out.print("Ingrese el precio del producto (0 para terminar): ");
             precioIngresado= entradaUsuario.nextDouble();
             subTotal = subTotal + precioIngresado;
        } while (precioIngresado != 0);
+        entradaUsuario.close();
 
 
        //calculo de subtotal con iva

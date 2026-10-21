@@ -1,9 +1,6 @@
 /// Contexto: Los clientes de la cafetería quieren dejar propina. Debes calcular la
 /// propina basada en el total de la cuenta.
 
-
-
-
 import java.util.Scanner;
 
 public class Kata1 {
